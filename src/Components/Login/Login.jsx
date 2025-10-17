@@ -39,7 +39,7 @@ const Login = () => {
   return (
     <div className="mx-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div className="card-body">
-        <h1 className="text-5xl font-bold">Please Register!</h1>
+        <h1 className="text-3xl font-bold">Please Login!</h1>
         <form onSubmit={handleLogIn}>
           <fieldset className="fieldset">
             {/* email field */}
@@ -101,8 +101,8 @@ const Login = () => {
           Login with Google
         </button>
         <p>
-          New to out website ? Please{" "}
-          <Link className="text-blue-500 hover:text-blue-800" to="/register">
+          New to our website ? Please{" "}
+          <Link className="text-blue-500 hover:text-blue-900" to="/register">
             Register
           </Link>
         </p>

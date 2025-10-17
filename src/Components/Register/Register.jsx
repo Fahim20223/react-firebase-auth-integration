@@ -18,7 +18,7 @@ const Register = () => {
   return (
     <div className="mx-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div className="card-body">
-        <h1 className="text-5xl font-bold">Please Register!</h1>
+        <h1 className="text-3xl font-bold">Please Register!</h1>
         <form onSubmit={handleRegister}>
           <fieldset className="fieldset">
             {/* Name field */}
