@@ -37,13 +37,13 @@ const AuthProvider = ({ children }) => {
   };
 
   //get current user info
-  onAuthStateChanged(auth, (currentUser) => {
-    if (currentUser) {
-      console.log("inside observer: if", currentUser);
-    } else {
-      console.log("inside observer: else", currentUser);
-    }
-  });
+  // onAuthStateChanged(auth, (currentUser) => {
+  //   if (currentUser) {
+  //     console.log("inside observer: if", currentUser);
+  //   } else {
+  //     console.log("inside observer: else", currentUser);
+  //   }
+  // });
 
   //   useEffect(() => {
   //     //step -1 : observer set
